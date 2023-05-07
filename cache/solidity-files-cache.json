@@ -1,0 +1,260 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/akhilmanga/Desktop/hardhat-defi-fcc/contracts/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1683367130060,
+      "contentHash": "45292448700a10a8e06072246c8b19f0",
+      "sourceName": "contracts/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "/Users/akhilmanga/Desktop/hardhat-defi-fcc/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1683367130060,
+      "contentHash": "bea48a81dc5ec8eb1445dfc30ac4e02b",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.6"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/akhilmanga/Desktop/hardhat-defi-fcc/contracts/interfaces/ILendingPool.sol": {
+      "lastModificationDate": 1683367130060,
+      "contentHash": "a057288894e88fa518b68e581f45f9fb",
+      "sourceName": "contracts/interfaces/ILendingPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol",
+        "@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPool"
+      ]
+    },
+    "/Users/akhilmanga/Desktop/hardhat-defi-fcc/node_modules/@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol": {
+      "lastModificationDate": 1683368039751,
+      "contentHash": "a487bfd067ce6e71ddc7e9cc91302bae",
+      "sourceName": "@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPoolAddressesProvider"
+      ]
+    },
+    "/Users/akhilmanga/Desktop/hardhat-defi-fcc/node_modules/@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol": {
+      "lastModificationDate": 1683368041389,
+      "contentHash": "2127b8d36674faba96bc703f72164a1a",
+      "sourceName": "@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DataTypes"
+      ]
+    },
+    "/Users/akhilmanga/Desktop/hardhat-defi-fcc/contracts/interfaces/IWeth.sol": {
+      "lastModificationDate": 1683367130060,
+      "contentHash": "e3faa71d01bcfb5adbd52e8c0d1b7fe3",
+      "sourceName": "contracts/interfaces/IWeth.sol",
+      "solcConfig": {
+        "version": "0.4.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.19"
+      ],
+      "artifacts": [
+        "IWeth"
+      ]
+    }
+  }
+}
